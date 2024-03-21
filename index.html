@@ -8,8 +8,9 @@
 </head>
 <body>
     <div id="demo" class="text-blue-400"></div>
-    <img src="green.jpg" alt="">
-    <button onclick="clickMe()">Click me</button>
+    <img id="traffic" src="images/green.jpg" alt="">
+    <button type="button" onclick="document.getElementById('traffic').src='images/orange.jpg' "> Wait </button>
+    <button type="button" onclick="document.getElementById('traffic').src='images/red.jpg' "> Stop </button>
     <div id="myDiv">My Div</div>
     <script src=""></script>
 </body>
